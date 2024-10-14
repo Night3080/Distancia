@@ -16,6 +16,7 @@ int main() {
   cout<< "y2:";
   cin>>y2;
   d=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+  d=round(d);
   cout<<"La distancia entre los dos puntos es: "<<d<<endl;
   return 0;
 }
